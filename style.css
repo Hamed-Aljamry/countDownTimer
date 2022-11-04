@@ -3,10 +3,27 @@
   box-sizing: border-box;
 }
 body {
-  background-image:url('/snowpic.avif');
+  background-image:url('/snow_cool_pic.jpg');
+  background-repeat: no-repeat;
   background-size: cover;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
   background-position: center center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: -20rem;
 }
 .countdown {
  display: flex;
+
+}
+
+.big-text{
+  font-size: 2rem;
 }
