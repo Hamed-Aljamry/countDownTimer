@@ -1,10 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Kolker+Brush&display=swap');
 * {
   box-sizing: border-box;
 }
 body {
   background-image:url('/snow_cool_pic.jpg');
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   justify-content: center;
   min-height: 100vh;
@@ -13,17 +13,35 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-}
+  font-family: 'Amatic SC', cursive;}
 
 h1 {
-  font-size: 2rem;
-  margin-top: -20rem;
-}
-.countdown {
- display: flex;
+  font-size: 3rem;
+  margin-top: -37rem;
+  font-weight: bold;
+  padding-bottom: 5%;
 
+}
+.countdown-c {
+ display: flex;
+  margin-top: -2rem;
 }
 
 .big-text{
-  font-size: 2rem;
+  font-size: 5rem;
+  line-height: 1;
+  margin: 0 2rem;
+  font-weight: bold;
+}
+
+.countdown-span{
+  text-align: center;
+  /* font-size: 1.5rem; */
+
+}
+
+.countdown-c span {
+  font-size: 1.9rem;
+  font-weight: bold;
+
 }
