@@ -8,7 +8,11 @@ function countDown() {
 
   const days = Math.floor(seconds / 3600 / 24);
 
-  console.log(days);
+  const hours = Math.floor(seconds/ 3600) % 24
+
+  const minutes = Math.floor(seconds / 60) % 60;
+
+  console.log(days, hours, minutes);
 }
 
 countDown();
