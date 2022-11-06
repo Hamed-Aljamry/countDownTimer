@@ -20,10 +20,12 @@ function countDown() {
 
   const seconds = Math.floor(totalSeconds % 60)
 
-daysElement.innerHTML = days;
-hoursElement.innerHTML = hours;
-minutesElement.innerHTML = minutes;
-secondsElement.innerHTML = seconds;
+  daysElement.innerHTML = days;
+  hoursElement.innerHTML = hours;
+  minutesElement.innerHTML = minutes;
+  secondsElement.innerHTML = seconds;
+
+
   console.log(days, hours, minutes, seconds);
 }
 
